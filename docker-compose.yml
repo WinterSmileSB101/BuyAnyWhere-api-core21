@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  buyanywhere-api-core21:
+    image: ${DOCKER_REGISTRY}buyanywhereapicore21
+    build:
+      context: .
+      dockerfile: BuyAnyWhere-api-core21/Dockerfile
